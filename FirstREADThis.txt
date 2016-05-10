@@ -10,7 +10,7 @@ Building the source code:
 Please download the code by 
 
 1. git clone https://github.com/saimanoj18/3DLRF.git
-2. cd 3DLRF-master
+2. cd 3DLRF
 3. mkdir build
 4. cd build
 5. cmake ..
