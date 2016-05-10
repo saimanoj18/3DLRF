@@ -271,14 +271,14 @@ int main(int argc, char **argv)
     viewer->addCorrespondences<pcl::PointXYZ>(cb.cloud1_keypoints.makeShared(), cb.cloud2_keypoints.makeShared(), corr_shot, "correspondences");
 
 
-
-
+// To Display Correspondences
+/*
     while (!viewer->wasStopped ())
     {
         viewer->spinOnce (100);
         boost::this_thread::sleep (boost::posix_time::microseconds (100000));
     }
-
+*/
 
     return 0;
 }
