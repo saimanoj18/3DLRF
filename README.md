@@ -7,10 +7,3 @@ This is the source code of our work titled, "3DLRF: Local Reference Frame Based 
 Please read FirstREADThis.txt for more information.
 
 
-Contact:
-
-Sai Manoj Prakhya
-
-saimanoj001@e.ntu.edu.sg
-
-saimanoj18@yahoo.com
