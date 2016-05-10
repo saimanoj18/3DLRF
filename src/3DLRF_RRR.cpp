@@ -67,7 +67,7 @@ int main(int argc, char **argv)
     threeDLRF RP1, RP2;
 
     ofstream ToFile;
-    ToFile.open ("../results/3DLRF_12dim_0.001_ISS_higher_0.12_RANSAC_0.03.txt", ios::out | ios::app);
+    ToFile.open ("../results/3DLRF_12dim_0.001_ISS.txt", ios::out | ios::app);
 
 
     /*****************************************/
