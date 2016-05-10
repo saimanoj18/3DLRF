@@ -1,0 +1,50 @@
+This is the source code of our work titled, "3DLRF: Local Reference Frame Based Construction and Matching of a 3D Feature Descriptor" by Sai Manoj Prakhya, Jie Lin, Vijay Chandrasekhar, Weisi Lin and Bingbing Liu.
+
+Pre-requisites:
+
+PCL needs to be installed to get the source code running. We worked with PCL 1.7.2.
+
+
+Building the source code:
+
+Please download the code.
+
+1. cd 3DLRF/build
+2. cmake ..
+3. make -j4
+
+Then
+
+Go to the "scripts" folder and run the scripts to generate results of 3DLRF, low dimensional SHOT, RoPS and FPFH descriptors. The textfiles containing the experimental results on Bologna Kinect dataset can be found in the "results" folder once the programs are compiled and executed wihtout any errors.
+
+
+
+Info:
+
+1. In the source code, the folder named "datasets" contains the Bologna Kinect dataset that can also be found at 
+http://vision.deis.unibo.it/keypoints3d/?page_id=2
+
+2. The folder named "scripts" has python scripts to run 3DLRF, and reduced dimensional SHOT, RoPS and FPFH descriptors on the Bologna Kinect dataset with the experimental used in the paper. 
+
+3. The program "3DLRF_testing" takes two input point clouds and finds correspondences between them using 3DLRF descriptors. This program helps users to understand the flow of feature descriptor extraction and matching.
+
+4. The program "3DLRF_RRR" evaluates 3DLRF descriptors on the dataset and has comments to help the readers to understand the evaluation methodology.
+
+5. The program "3DLRF_visualization" helps to create and visualize the mapping of keypoints from its original space to new 3D space. Please refer to paper for more information. It helps to create a figure similar to Fig.1 in the paper.
+
+6. The computational requirements to extract SHOT and FPFH descriptors is the time taken to create normals from raw point clouds and then creating the descriptors from them.
+
+7. To understand the evaluation methodology, refer to 3DLRF_RRR.cpp.
+
+8. The programs shot_low_dim, rops_low_dim and fpfh_low_dim are the low dimensional versions of SHOT, RoPS and FPFH descriptors. Refer to the header files in those CPP files to see how the low dimensional versions are created.
+
+9. For calculating the matching time of low dimensional versions of SHOT, RoPS and FPFH, we have retained the full dimensional descriptor length and used default kdtree templates that come with PCL. Implementing the exact low dimensional vector based kdtree may slighlty reduce the matching time, in order of 1/100 or 1/1000 th of a second, but as can be seen from the results in the paper, 3DLRF already outperforms others in order of few seconds, so the effect of matching time would be negligible.
+
+10. Please contact me for any further information
+
+Contact:
+Sai Manoj Prakhya
+saimanoj001@e.ntu.edu.sg
+saimanoj18@yahoo.com
+
+

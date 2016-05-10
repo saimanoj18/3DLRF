@@ -1,0 +1,326 @@
+Time taken for creating normals   11.7895
+Time taken for creating SHOT descriptors + 2.5349
+Time taken for NN of SHOT : 0.057939
+Time taken for RANSAC of SHOT ` 0.004913
+T diff & 0.0325789
+RRR of SHOT * 17.8862
+
+Time taken for creating normals   12.4169
+Time taken for creating SHOT descriptors + 2.50458
+Time taken for NN of SHOT : 0.043262
+Time taken for RANSAC of SHOT ` 0.000418
+T diff & 0.041465
+RRR of SHOT * 43.2584
+
+Time taken for creating normals   11.8467
+Time taken for creating SHOT descriptors + 2.53226
+Time taken for NN of SHOT : 0.024824
+Time taken for RANSAC of SHOT ` 0.000631
+T diff & 0.0795229
+RRR of SHOT * 29.1667
+
+Time taken for creating normals   11.3673
+Time taken for creating SHOT descriptors + 3.01452
+Time taken for NN of SHOT : 0.066737
+Time taken for RANSAC of SHOT ` 0.002789
+T diff & 0.168922
+RRR of SHOT * 24.4755
+
+Time taken for creating normals   10.7711
+Time taken for creating SHOT descriptors + 3.27318
+Time taken for NN of SHOT : 0.099444
+Time taken for RANSAC of SHOT ` 0.000341
+T diff & 0.0849974
+RRR of SHOT * 46.4115
+
+Time taken for creating normals   10.9365
+Time taken for creating SHOT descriptors + 3.29661
+Time taken for NN of SHOT : 0.055966
+Time taken for RANSAC of SHOT ` 0.004276
+T diff & 2.30027
+RRR of SHOT * 1
+
+Time taken for creating normals   12.6317
+Time taken for creating SHOT descriptors + 2.91242
+Time taken for NN of SHOT : 0.061964
+Time taken for RANSAC of SHOT ` 0.000819
+T diff & 0.110956
+RRR of SHOT * 38.6364
+
+Time taken for creating normals   12.2469
+Time taken for creating SHOT descriptors + 2.85497
+Time taken for NN of SHOT : 0.077031
+Time taken for RANSAC of SHOT ` 0.004304
+T diff & 0.44621
+RRR of SHOT * 27.9412
+
+Time taken for creating normals   12.2508
+Time taken for creating SHOT descriptors + 2.48546
+Time taken for NN of SHOT : 0.023157
+Time taken for RANSAC of SHOT ` 0.002072
+T diff & 0.174017
+RRR of SHOT * 19.2771
+
+Time taken for creating normals   12.5369
+Time taken for creating SHOT descriptors + 2.5303
+Time taken for NN of SHOT : 0.072325
+Time taken for RANSAC of SHOT ` 0.003951
+T diff & 0.150945
+RRR of SHOT * 41.5254
+
+Time taken for creating normals   12.0134
+Time taken for creating SHOT descriptors + 2.58348
+Time taken for NN of SHOT : 0.055908
+Time taken for RANSAC of SHOT ` 0.000873
+T diff & 0.10822
+RRR of SHOT * 32.3741
+
+Time taken for creating normals   12.1747
+Time taken for creating SHOT descriptors + 2.85501
+Time taken for NN of SHOT : 0.057131
+Time taken for RANSAC of SHOT ` 0.004785
+T diff & 0.0429606
+RRR of SHOT * 20.5882
+
+Time taken for creating normals   12.8654
+Time taken for creating SHOT descriptors + 3.05604
+Time taken for NN of SHOT : 0.124467
+Time taken for RANSAC of SHOT ` 0.006991
+T diff & 0.125878
+RRR of SHOT * 25.9887
+
+Time taken for creating normals   12.4186
+Time taken for creating SHOT descriptors + 3.08291
+Time taken for NN of SHOT : 0.050041
+Time taken for RANSAC of SHOT ` 0.001515
+T diff & 0.262371
+RRR of SHOT * 26.1745
+
+Time taken for creating normals   12.7653
+Time taken for creating SHOT descriptors + 2.6813
+Time taken for NN of SHOT : 0.08349
+Time taken for RANSAC of SHOT ` 0.000988
+T diff & 0.0649629
+RRR of SHOT * 36.8421
+
+Time taken for creating normals   12.543
+Time taken for creating SHOT descriptors + 3.01307
+Time taken for NN of SHOT : 0.06866
+Time taken for RANSAC of SHOT ` 0.000352
+T diff & 0.517316
+RRR of SHOT * 53.3333
+
+Time taken for creating normals   12.2848
+Time taken for creating SHOT descriptors + 3.01199
+Time taken for NN of SHOT : 0.044975
+Time taken for RANSAC of SHOT ` 0.004468
+T diff & 2.9518
+RRR of SHOT * 0
+
+Time taken for creating normals   11.9302
+Time taken for creating normals   12.3286
+Time taken for creating normals   11.8286
+Time taken for creating normals   10.8538
+Time taken for creating normals   10.7226
+Time taken for creating normals   10.7954
+Time taken for creating normals   11.9282
+Time taken for creating SHOT descriptors + 2.53842
+Time taken for NN of SHOT : 0.051205
+Time taken for RANSAC of SHOT ` 0.004449
+T diff & 0.179852
+RRR of SHOT * 17.8862
+
+Time taken for creating normals   12.4824
+Time taken for creating SHOT descriptors + 2.51495
+Time taken for NN of SHOT : 0.042496
+Time taken for RANSAC of SHOT ` 0.000391
+T diff & 0.0227135
+RRR of SHOT * 43.8202
+
+Time taken for creating normals   11.7779
+Time taken for creating SHOT descriptors + 2.65156
+Time taken for NN of SHOT : 0.027416
+Time taken for RANSAC of SHOT ` 0.00068
+T diff & 0.117278
+RRR of SHOT * 29.1667
+
+Time taken for creating normals   11.0153
+Time taken for creating SHOT descriptors + 2.88576
+Time taken for NN of SHOT : 0.058706
+Time taken for RANSAC of SHOT ` 0.002957
+T diff & 0.255578
+RRR of SHOT * 23.7762
+
+Time taken for creating normals   11.0119
+Time taken for creating SHOT descriptors + 2.95217
+Time taken for NN of SHOT : 0.088696
+Time taken for RANSAC of SHOT ` 0.000357
+T diff & 0.133149
+RRR of SHOT * 45.933
+
+Time taken for creating normals   11.0263
+Time taken for creating SHOT descriptors + 3.37798
+Time taken for NN of SHOT : 0.056628
+Time taken for RANSAC of SHOT ` 0.004318
+T diff & 2.3128
+RRR of SHOT * 0
+
+Time taken for creating normals   13.1647
+Time taken for creating SHOT descriptors + 2.82819
+Time taken for NN of SHOT : 0.061007
+Time taken for RANSAC of SHOT ` 0.000867
+T diff & 0.164787
+RRR of SHOT * 38.6364
+
+Time taken for creating normals   12.4707
+Time taken for creating SHOT descriptors + 2.80732
+Time taken for NN of SHOT : 0.077053
+Time taken for RANSAC of SHOT ` 0.005432
+T diff & 0.472261
+RRR of SHOT * 25.7353
+
+Time taken for creating normals   12.2863
+Time taken for creating SHOT descriptors + 2.72474
+Time taken for NN of SHOT : 0.026697
+Time taken for RANSAC of SHOT ` 0.002445
+T diff & 0.169241
+RRR of SHOT * 19.2771
+
+Time taken for creating normals   12.4147
+Time taken for creating SHOT descriptors + 2.54134
+Time taken for NN of SHOT : 0.07614
+Time taken for RANSAC of SHOT ` 0.004838
+T diff & 0.0516225
+RRR of SHOT * 38.9831
+
+Time taken for creating normals   11.9449
+Time taken for creating SHOT descriptors + 2.56643
+Time taken for NN of SHOT : 0.056411
+Time taken for RANSAC of SHOT ` 0.000916
+T diff & 0.0384975
+RRR of SHOT * 31.6547
+
+Time taken for creating normals   12.1391
+Time taken for creating SHOT descriptors + 2.89942
+Time taken for NN of SHOT : 0.056543
+Time taken for RANSAC of SHOT ` 0.004833
+T diff & 0.55273
+RRR of SHOT * 13.9706
+
+Time taken for creating normals   12.616
+Time taken for creating SHOT descriptors + 2.90193
+Time taken for NN of SHOT : 0.121294
+Time taken for RANSAC of SHOT ` 0.007021
+T diff & 0.982378
+RRR of SHOT * 12.9944
+
+Time taken for creating normals   12.5539
+Time taken for creating SHOT descriptors + 3.0038
+Time taken for NN of SHOT : 0.049824
+Time taken for RANSAC of SHOT ` 0.001622
+T diff & 0.128914
+RRR of SHOT * 25.5034
+
+Time taken for creating normals   12.564
+Time taken for creating SHOT descriptors + 3.05897
+Time taken for NN of SHOT : 0.097891
+Time taken for RANSAC of SHOT ` 0.00155
+T diff & 0.278162
+RRR of SHOT * 34.0081
+
+Time taken for creating normals   12.1684
+Time taken for creating SHOT descriptors + 2.80837
+Time taken for NN of SHOT : 0.06772
+Time taken for RANSAC of SHOT ` 0.000271
+T diff & 0.133153
+RRR of SHOT * 53.8462
+
+Time taken for creating normals   12.6053
+Time taken for creating SHOT descriptors + 2.56782
+Time taken for NN of SHOT : 0.037641
+Time taken for RANSAC of SHOT ` 0.003748
+T diff & 3.03183
+RRR of SHOT * 0
+
+Time taken for creating normals   12.3425
+Time taken for creating SHOT descriptors + 2.6839
+Time taken for NN of SHOT : 0.094137
+Time taken for RANSAC of SHOT ` 0.0055
+T diff & 0.669935
+RRR of SHOT * 25.4237
+
+Time taken for creating normals   12.0157
+Time taken for creating SHOT descriptors + 2.59101
+Time taken for NN of SHOT : 0.067309
+Time taken for RANSAC of SHOT ` 0.002094
+T diff & 0.345964
+RRR of SHOT * 25
+
+Time taken for creating normals   11.9431
+Time taken for creating normals   12.1526
+Time taken for creating normals   12.1349
+Time taken for creating normals   12.3173
+Time taken for creating normals   12.455
+Time taken for creating normals   11.7448
+Time taken for creating normals   10.7596
+Time taken for creating normals   10.8191
+Time taken for creating normals   11.2371
+Time taken for creating normals   12.8713
+Time taken for creating normals   12.241
+Time taken for creating normals   12.3113
+Time taken for creating normals   12.9833
+Time taken for creating normals   12.2497
+Time taken for creating normals   12.2209
+Time taken for creating SHOT descriptors + 3.03986
+Time taken for NN of SHOT : 0.057022
+Time taken for RANSAC of SHOT ` 0.004827
+T diff & 0.196312
+RRR of SHOT * 19.1176
+
+Time taken for creating normals   12.7153
+Time taken for creating SHOT descriptors + 3.14388
+Time taken for NN of SHOT : 0.121901
+Time taken for RANSAC of SHOT ` 0.007007
+T diff & 0.12788
+RRR of SHOT * 25.4237
+
+Time taken for creating normals   12.1087
+Time taken for creating normals   12.033
+Time taken for creating SHOT descriptors + 2.83827
+Time taken for NN of SHOT : 0.057212
+Time taken for RANSAC of SHOT ` 0.004787
+T diff & 0.107328
+RRR of SHOT * 17.8862
+
+Time taken for creating normals   11.9592
+Time taken for creating SHOT descriptors + 2.5741
+Time taken for NN of SHOT : 0.061335
+Time taken for RANSAC of SHOT ` 0.004235
+T diff & 0.131971
+RRR of SHOT * 21.9512
+
+Time taken for creating normals   12.2311
+Time taken for creating normals   11.9313
+Time taken for creating SHOT descriptors + 2.95549
+Time taken for NN of SHOT : 0.05793
+Time taken for RANSAC of SHOT ` 0.005025
+T diff & 0.250209
+RRR of SHOT * 17.0732
+
+Time taken for creating normals   11.9042
+Time taken for creating normals   12.3206
+Time taken for creating normals   11.7077
+Time taken for creating normals   11.5839
+Time taken for creating SHOT descriptors + 2.41913
+Time taken for NN of SHOT : 0.051728
+Time taken for RANSAC of SHOT ` 0.004133
+T diff & 0.20975
+RRR of SHOT * 17.8862
+
+Time taken for creating normals   12.0051
+Time taken for creating SHOT descriptors + 2.41219
+Time taken for NN of SHOT : 0.04154
+Time taken for RANSAC of SHOT ` 0.000585
+T diff & 0.190324
+RRR of SHOT * 44.382
+
