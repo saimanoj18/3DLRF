@@ -80,8 +80,7 @@
 #include <pcl/features/fpfh_omp.h>
 #include <pcl/features/spin_image.h>
 #include <pcl/features/usc.h>
-#include <pcl/features/rsd.h>
-#include <pcl/features/impl/rsd.hpp>
+
 
 #include <pcl/visualization/histogram_visualizer.h>
 #include <pcl/filters/voxel_grid.h>
