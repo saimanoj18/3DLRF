@@ -7,11 +7,14 @@ PCL needs to be installed to get the source code running. We worked with PCL 1.7
 
 Building the source code:
 
-Please download the code.
+Please download the code by 
 
-1. cd 3DLRF/build
-2. cmake ..
-3. make -j4
+1. git clone https://github.com/saimanoj18/3DLRF.git
+2. cd 3DLRF-master
+3. mkdir build
+4. cd build
+5. cmake ..
+6. make -j4
 
 Then
 
