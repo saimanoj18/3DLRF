@@ -16,7 +16,7 @@ endif()
 
 
 # Adding PCL library
-set(PCL_DIR "/home/sai/workspace/pcl-pcl-1.7.2/build/")
+#set(PCL_DIR "/home/sai/workspace/pcl-pcl-1.7.2/build/")
 find_package(PCL 1.7.2 REQUIRED)
 include_directories(${PCL_INCLUDE_DIRS} include)
 link_directories(${PCL_LIBRARY_DIRS})
