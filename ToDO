@@ -1,0 +1,90 @@
+To run the nine dimensional 3DLRF descriptor..Use the below descriptor matching code instead of kdtree+keypoint encoding
+
+How this performance is lower and takes more matching time
+
+
+
+
+
+    //////////////////////////////////////////////////////////////////////////////////////
+    /// \brief JUST REFERENCE FRAME descriptors---9 dim alone--ONLY ANGLES
+    //////////////////////////////////////////////////////////////////////////////////////
+    clock_t start_shot2, end_shot2;
+    double cpu_time_used_shot2;
+    start_shot2 = clock();
+
+    for (int i =0; i <RP1.cloud_REFERENCE_FRAME_descriptors.size();i++)
+    {
+        std::vector<double> angles_vector;
+
+        Eigen::Vector4f rf1_x,rf1_y,rf1_z;
+        rf1_x[0] = RP1.cloud_REFERENCE_FRAME_descriptors[i].vector[0];
+        rf1_x[1] = RP1.cloud_REFERENCE_FRAME_descriptors[i].vector[1];
+        rf1_x[2] = RP1.cloud_REFERENCE_FRAME_descriptors[i].vector[2];
+        rf1_x[3] = 0;
+
+        rf1_y[0] = RP1.cloud_REFERENCE_FRAME_descriptors[i].vector[3];
+        rf1_y[1] = RP1.cloud_REFERENCE_FRAME_descriptors[i].vector[4];
+        rf1_y[2] = RP1.cloud_REFERENCE_FRAME_descriptors[i].vector[5];
+        rf1_y[3] = 0;
+
+        rf1_z[0] = RP1.cloud_REFERENCE_FRAME_descriptors[i].vector[6];
+        rf1_z[1] = RP1.cloud_REFERENCE_FRAME_descriptors[i].vector[7];
+        rf1_z[2] = RP1.cloud_REFERENCE_FRAME_descriptors[i].vector[8];
+        rf1_z[3] = 0;
+
+
+        for (int j = 0; j < RP2.cloud_REFERENCE_FRAME_descriptors.size();j++ )
+        {
+
+            Eigen::Vector4f rf2_x,rf2_y,rf2_z;
+
+
+            rf2_x[0] = RP2.cloud_REFERENCE_FRAME_descriptors[j].vector[0];
+            rf2_x[1] = RP2.cloud_REFERENCE_FRAME_descriptors[j].vector[1];
+            rf2_x[2] = RP2.cloud_REFERENCE_FRAME_descriptors[j].vector[2];
+            rf2_x[3] = 0;
+
+            rf2_y[0] = RP2.cloud_REFERENCE_FRAME_descriptors[j].vector[3];
+            rf2_y[1] = RP2.cloud_REFERENCE_FRAME_descriptors[j].vector[4];
+            rf2_y[2] = RP2.cloud_REFERENCE_FRAME_descriptors[j].vector[5];
+            rf2_y[3] = 0;
+
+            rf2_z[0] = RP2.cloud_REFERENCE_FRAME_descriptors[j].vector[6];
+            rf2_z[1] = RP2.cloud_REFERENCE_FRAME_descriptors[j].vector[7];
+            rf2_z[2] = RP2.cloud_REFERENCE_FRAME_descriptors[j].vector[8];
+            rf2_z[3] = 0;
+
+            double angle_x = pcl::getAngle3D(rf1_x,rf2_x);
+            double angle_y = (pcl::getAngle3D(rf1_y,rf2_y));
+            double angle_z = (pcl::getAngle3D(rf1_z,rf2_z));
+
+
+            angles_vector.push_back(std::max(angle_x,std::max(angle_y,angle_z)));
+
+        }
+
+        //cout << "Second THreshold Potential Matches: " << good_angles_accumulate_indices.size()<< endl;
+
+        std::vector<double>::iterator result;
+        result = std::min_element(angles_vector.begin(), angles_vector.end());
+        //std::cout << "Max element at: " << std::distance(match_distance.begin(), result) << '\n';
+        //std::cout << "Max element is: " << match_distance[std::distance(match_distance.begin(), result)] << '\n';
+        int min_element_index = std::distance(angles_vector.begin(), result);
+
+        pcl::Correspondence corr;
+        corr.index_query = RP1.patch_descriptor_indices[i];// vulnerable
+        corr.index_match = RP2.patch_descriptor_indices[min_element_index];// vulnerable
+
+        corresp.push_back(corr);
+
+
+    }
+    end_shot2 = clock();
+    cpu_time_used_shot2 = ((double) (end_shot2 - start_shot2)) / CLOCKS_PER_SEC;
+    cout <<  "Time taken for Feature Descriptor Matching : " << (double)cpu_time_used_shot2 << "\n";
+    pcashot << "Time taken for matchign 3D LRF's : " << (double)cpu_time_used_shot2 << "\n";
+
+    //////////////////////////////////////////////////////////////////////////////////////
+    /// \brief JUST REFERENCE FRAME descriptors---9 dim alone--ONLY ANGLES
+    //////////////////////////////////////////////////////////////////////////////////////
