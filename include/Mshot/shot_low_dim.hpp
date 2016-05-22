@@ -40,8 +40,8 @@
 #ifndef PCL_FEATURES_IMPL_SHOTLowDim_H_
 #define PCL_FEATURES_IMPL_SHOTLowDim_H_
 
-#include </home/sai/pcl_testing/3DLRF/include/Mshot/shot_low_dim.h>
-#include </home/sai/pcl_testing/3DLRF/include/Mshot/shot_low_dim_lrf.h>
+#include <Mshot/shot_low_dim.h>
+#include <Mshot/shot_low_dim_lrf.h>
 #include <utility>
 
 // Useful constants.
