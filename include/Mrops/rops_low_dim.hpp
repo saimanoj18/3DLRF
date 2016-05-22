@@ -40,7 +40,7 @@
 #ifndef PCL_ROPS_M_HPP_
 #define PCL_ROPS_M_HPP_
 
-#include </home/sai/pcl_testing/3DLRF/include/Mrops/rops_low_dim.h>
+#include <Mrops/rops_low_dim.h>
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 template <typename PointInT, typename PointOutT>
