@@ -41,7 +41,7 @@
 #define PCL_FEATURES_IMPL_SHOTLowDim_LRF_H_
 
 #include <utility>
-#include </home/sai/pcl_testing/3DLRF/include/Mshot/shot_low_dim_lrf.h>
+#include <Mshot/shot_low_dim_lrf.h>
 
 //////////////////////////////////////////////////////////////////////////////////////////////
 // Compute a local Reference Frame for a 3D feature; the output is stored in the "rf" matrix
